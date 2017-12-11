@@ -1,3 +1,6 @@
+#The observer pattern is used when you are building a system
+#where the state of one object effects the state of other object
+
 class Payroll
   def update(changed_employee)
 		puts("I cut a check for #{changed_employee.name}")
